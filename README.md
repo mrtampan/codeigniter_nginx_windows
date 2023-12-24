@@ -20,7 +20,9 @@ running codeigniter with nginx on windows.
 
 ## Error Locale
 
-- please enable extension intl php.ini fastcgi
+- Please enable extension intl php.ini fastcgi
+- Stop php_fastcgi via task manager
+- Reopen start-php-fcgi.bat
 
 ## Permission Issue
 
