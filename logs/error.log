@@ -1,0 +1,50 @@
+2023/12/24 17:59:32 [error] 15824#18508: *27 directory index of "C:\Users\HP\nginx/html/project-root/public/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2023/12/24 18:07:32 [notice] 7908#10916: signal process started
+2023/12/24 18:07:38 [error] 15824#18508: *29 directory index of "C:\Users\HP\nginx/html/project-root/public/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2023/12/24 18:07:40 [error] 15824#18508: *29 directory index of "C:\Users\HP\nginx/html/project-root/public/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2023/12/24 18:14:33 [error] 15824#18508: *31 directory index of "C:\Users\HP\nginx/html/project-root/public/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2023/12/24 18:14:49 [notice] 16316#6076: signal process started
+2023/12/24 18:15:39 [error] 15824#18508: *31 directory index of "C:\Users\HP\nginx/html/project-root/public/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2023/12/24 18:17:04 [notice] 22168#22232: signal process started
+2023/12/24 18:17:10 [error] 15824#18508: *33 directory index of "C:\Users\HP\nginx/html/project-root/public/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2023/12/24 18:20:20 [notice] 5628#4936: signal process started
+2023/12/24 18:20:23 [notice] 17896#15284: signal process started
+2023/12/24 18:20:23 [error] 17896#15284: CreateFile() "C:\Users\HP\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/24 18:20:26 [error] 7176#16632: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class "Locale" not found in C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Helpers\number_helper.php(55): format_number()
+#1 C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(145): number_to_size()
+#2 C:\Users\HP\nginx\html\project-root\app\Views\errors\html\error_exception.php(361): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(241): include('...')
+#4 C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Debug\Exceptions.php(148): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown in C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Helpers\number_helper.php on line 136
+PHP Fatal error:  Uncaught Error: Class "Locale" not found in C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Helpers\number_helper.php(55): format_number()
+#1 C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(145): number_to_size()
+#2 C:\Users\HP\nginx\html\project-root\app\Views\errors\html\error_exception.php(361): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 C:
+2023/12/24 18:21:06 [error] 7176#16632: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Class "Locale" not found in C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Helpers\number_helper.php(55): format_number()
+#1 C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(145): number_to_size()
+#2 C:\Users\HP\nginx\html\project-root\app\Views\errors\html\error_exception.php(361): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(241): include('...')
+#4 C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Debug\Exceptions.php(148): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown in C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Helpers\number_helper.php on line 136
+PHP Fatal error:  Uncaught Error: Class "Locale" not found in C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Helpers\number_helper.php(55): format_number()
+#1 C:\Users\HP\nginx\html\project-root\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(145): number_to_size()
+#2 C:\Users\HP\nginx\html\project-root\app\Views\errors\html\error_exception.php(361): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 C:
+2023/12/24 18:21:43 [notice] 1720#11044: signal process started
+2023/12/24 18:25:34 [notice] 15536#15908: signal process started
